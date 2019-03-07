@@ -9,7 +9,6 @@ public class QuitSortTest {
     private static int sa[] = {72, 20, 35, 88, 36, 91, 52, 64};
     public static void main(String[] args) {
         quickSort(sa, 0, sa.length - 1);
-//        bubbleSort(sa);
         for (int i = 0; i < sa.length; i++) {
             System.out.println(sa[i]);
         }
